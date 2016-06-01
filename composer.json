@@ -1,6 +1,7 @@
 {
     "name": "group-by/group-by",
     "description": "A utility package, adding groupBy function to arrays, grouping by array keys or a callback.",
+    "license": "MIT",
     "authors": [
         {
             "name": "Pete McFarlane",
