@@ -63,7 +63,9 @@ $oddAndEven is now equal to
 ```
 
 ## Example 3: Group by callback on an array of objects
+
 Much like the above example, the input array can be an array of objects.
+
 ```php
 <?php
 
