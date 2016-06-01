@@ -92,11 +92,12 @@ class GroupByTest extends PHPUnit_Framework_TestCase
         groupBy($input, 7);
     }
 
-    /**
-     * @expectedException TypeError
-     */
-    public function testCanOnlyeBeCalledOnAnArray()
+    public function testCanOnlyBeCalledOnAnArray()
     {
-        groupBy("a string", "foo");
+        // if using PHP7
+        if (class_exists(\TypeError::class)) {
+            $this->expectException(\TypeError::class);
+            groupBy("a string", "foo");
+        }
     }
 }
