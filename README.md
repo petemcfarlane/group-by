@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/petemcfarlane/group-by.svg?branch=master)](https://travis-ci.org/petemcfarlane/group-by)
+[![Latest Stable Version](https://poser.pugx.org/group-by/group-by/v/stable)](https://packagist.org/packages/group-by/group-by)
+[![License](https://poser.pugx.org/group-by/group-by/license)](https://packagist.org/packages/group-by/group-by)
+
 # groupBy
 
 Adds grouping functionality to arrays. Arrays can be grouped by array key or by a callback.
