@@ -1,6 +1,6 @@
 <?php
 
-namespace GroupBy;
+namespace PeteMc\GroupBy;
 
 /**
  * Group an array of items by key.

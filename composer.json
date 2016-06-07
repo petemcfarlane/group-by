@@ -1,5 +1,5 @@
 {
-    "name": "group-by/group-by",
+    "name": "petemc/group-by",
     "description": "A utility package, adding groupBy function to arrays, grouping by array keys or a callback.",
     "license": "MIT",
     "authors": [
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "files": [
-            "src/GroupBy/groupBy.php"
+            "src/PeteMc/GroupBy/groupBy.php"
         ]
     }
 }

@@ -11,7 +11,7 @@ Adds grouping functionality to arrays. Arrays can be grouped by array key or by 
 ```php
 <?php
 
-use function GroupBy\groupBy;
+use function PeteMc\GroupBy\groupBy;
 
 $students = [
     ['name' => 'adam', 'year' => '10'],
@@ -46,7 +46,7 @@ $groupedByYear is equal to
 ```php
 <?php
 
-use function GroupBy\groupBy;
+use function PeteMc\GroupBy\groupBy;
 
 $numberList = [1, 2, 3, 4, 5, 987, 554, 32];
 
@@ -73,7 +73,7 @@ Much like the above example, the input array can be an array of objects.
 ```php
 <?php
 
-use function GroupBy\groupBy;
+use function PeteMc\GroupBy\groupBy;
 
 // $students in an array of `stdClass Object`
 $students = [

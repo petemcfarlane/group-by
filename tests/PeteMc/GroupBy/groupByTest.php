@@ -1,6 +1,6 @@
 <?php
 
-use function GroupBy\groupBy;
+use function PeteMc\GroupBy\groupBy;
 
 class GroupByTest extends PHPUnit_Framework_TestCase
 {
